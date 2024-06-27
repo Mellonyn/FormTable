@@ -1,0 +1,29 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 5%;
+}
+
+.tablestyle{
+    width: 40%;
+    height: 500px;
+    border: 1px solid black;
+    padding: 0px 10px 0px 10px;
+    margin-left: 20px;
+    background: linear-gradient(to right top, #c00e0b, 
+    #d37638,
+    #2d478a);
+}
+button{
+    width: 100px;
+    height: 50px;
+    margin-left: 40%;
+    margin-top: 2%;
+    background-color: #2d478a;
+    border-radius: 5% 20%;
+}
+button:hover{
+    border-radius: 20% 5%;
+    transition: 0.3s ease-in-out;
+}
