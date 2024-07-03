@@ -1,8 +1,15 @@
-.main{
+body{
+    background-color: #2d478a;
+}
+.wrapper{
     display: flex;
     justify-content: space-between;
     font-size: 20px;
     margin-top: 5%;
+    &_radio{
+        display: flex;
+        gap: 5px;
+    }
 }
 
 .tablestyle{
@@ -10,8 +17,9 @@
     height: 500px;
     border: 1px solid black;
     padding: 0px 10px 0px 10px;
-    margin-left: 20px;
-    background: linear-gradient(to right top, #c00e0b, 
+    margin-left: 30%;
+    margin-top: 10%;
+    background: radial-gradient(at left bottom, #c00e0b, 
     #d37638,
     #2d478a);
 }
@@ -28,5 +36,14 @@ button:hover{
     transition: 0.3s ease-in-out;
 }
 .m1{
-    width: 300px;
+    width: 170px;
+}
+.m2{
+    width: 178px;
+}
+.m3{
+    width: 173px;
+}
+#box{
+    margin: 0px 28px 0px 28px;
 }
